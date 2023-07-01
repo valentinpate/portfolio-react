@@ -1,0 +1,15 @@
+.AboutMeContainer{
+    padding-top:4em;
+    padding-left:6em;
+}
+
+.AboutMeContainer h2{
+    font-size:3rem;
+    font-weight:900;
+    color:#10637D;
+}
+
+.AboutMeContainer p{
+    width:60em;
+    font-weight:900;
+}
