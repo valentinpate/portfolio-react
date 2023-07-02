@@ -1,9 +1,10 @@
 .Languages img{
     width:8em;
-    margin: 0 2em;
+    margin: 0 2.5em;
 }
 
 .Languages{
+    width:90%;
+    margin:0 auto;
     padding-top:3em;
-    padding-left:5em;
 }

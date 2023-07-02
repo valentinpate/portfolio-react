@@ -1,0 +1,70 @@
+.ContactsMainContainer input, .ContactsMainContainer textarea{
+    background-color:transparent;
+    border:none;
+    border-radius:0.5rem;
+    font-weight:900;
+    padding-top:1em;
+    padding-bottom:1em;
+    padding-left:1em;
+    box-shadow:0 2px 3px #696A6F;
+    transition: box-shadow 0.3s;
+}
+
+.ContactsMainContainer h2{
+    font-size:3rem;
+    font-weight:900;
+    color:#10637D;
+    padding-bottom:1em;
+}
+
+.ContactsMainContainer button{
+    margin: 2em 0;
+    background-color:#10637D;
+    padding:0.7em 1.5em;
+    font-size:1.4rem;
+    color:white;
+    border:2px solid transparent;
+    border-radius:1rem;
+    transition: background-color 0.3s,
+                border 0.3s,
+                color 0.3s;
+}
+
+.Contacts input{
+    width:53em;
+    margin-bottom:2em;
+}
+
+.Area input{
+    margin-bottom:2em;
+}
+
+.ContactsMainContainer button:hover{
+    background-color:#f2f2f2;
+    border:2px solid #10637D;
+    color:#10637D;
+}
+
+.ContactsMainContainer input:hover, .ContactsMainContainer textarea:hover{
+    box-shadow:0 3px 4px #696A6F;
+}
+
+.ContactsMainContainer{
+    width:90%;
+    margin:0 auto;
+    padding-top:5em;
+}
+
+.Contacts{
+    display:flex;
+    justify-content:center;
+}
+
+.MarginInput{
+    margin-right:1em;
+}
+
+.Area{
+    display:flex;
+    flex-direction:column;
+}

@@ -1,10 +1,10 @@
 import "./Intro.css"
-import img from "./1c.jpg"
+import {Photo} from "../Photo/Photo"
 
 function Intro(){
     return(
         <div className="IntroContainer">
-            <img src={img} alt="" />
+            <Photo />
             <div className="IntroInformation">
                 <h1>Valentín Pate</h1>
                 <h3>Transformando ideas en soluciones funcionales y elegantes. <br />¡Colaboremos!</h3>

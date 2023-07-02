@@ -1,5 +1,5 @@
 import './App.css';
-import {Header, LightButton, Intro, AboutMe, ProgrammingLanguagesImg} from "./components"
+import {Header, LightButton, Intro, AboutMe, ProgrammingLanguagesImg, Experience, Projects, Contact} from "./components"
 
 function App() {
   return (
@@ -9,6 +9,9 @@ function App() {
       <Intro />
       <AboutMe />
       <ProgrammingLanguagesImg />
+      <Experience />
+      <Projects />
+      <Contact />
     </>
   );
 }

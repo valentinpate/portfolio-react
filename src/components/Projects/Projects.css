@@ -1,0 +1,61 @@
+.ProjectsContainer h2{
+    padding-bottom:0.5em;
+    font-size:3rem;
+    font-weight:900;
+    color:#10637D;
+}
+
+.Project img{
+    width:30em;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    padding-bottom:1em;
+}
+
+.Project p{
+    font-weight:900;
+}
+
+.Project a{
+    padding: 0.8em 1.5em;
+    color:#10637D;
+    text-decoration:none;
+    border:2px solid #10637D;
+    border-radius:1rem;
+    transition: background-color 0.3s,
+                color 0.3s;
+}
+
+.Project a:hover{
+    background-color:#10637D;
+    color:#f2f2f2;
+}
+
+.Project:hover{
+    box-shadow:0 4px 8px #696A6F;
+}
+
+.ProjectsContainer{
+    padding-top:5em;
+    width:90%;
+    margin:0 auto;
+}
+
+.ProjectContainer{
+    display:flex;
+    justify-content:center;
+}
+
+.Project{
+    height:28em;
+    margin:1em 3.5em;
+    border:1px solid transparent;
+    border-radius:1rem;
+    box-shadow:0 3px 2px #696A6F;
+    text-align:center;
+    transition: box-shadow 0.3s;
+}
+
+.Stomp{
+    margin-bottom:4em;
+}

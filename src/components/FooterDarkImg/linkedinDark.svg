@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+
+<svg
+   width="800px"
+   height="800px"
+   viewBox="0 0 20 20"
+   version="1.1"
+   id="svg10358"
+   sodipodi:docname="linkedinDark.svg"
+   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <sodipodi:namedview
+     id="namedview10360"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="1.04625"
+     inkscape:cx="341.21864"
+     inkscape:cy="400.4779"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg10358" />
+  <title
+     id="title10348">linkedin [#161]</title>
+  <desc
+     id="desc10350">Created with Sketch.</desc>
+  <defs
+     id="defs10352" />
+  <path
+     style="fill:#11f1fd;stroke-width:0.0238949;paint-order:stroke fill markers;fill-opacity:1"
+     d="M 7.013186,13.500607 V 7.0131527 h 1.983274 1.983273 v 0.7287932 c 0,0.4008363 0.0081,0.728774 0.01792,0.7287505 0.0099,-2.35e-5 0.05003,-0.050858 0.08927,-0.112965 0.114465,-0.1811697 0.284384,-0.3838672 0.533,-0.6358202 0.750357,-0.7604283 1.61199,-1.2060688 2.694172,-1.393439 0.295472,-0.051158 1.203004,-0.059015 1.528245,-0.013231 1.209706,0.1702905 2.097554,0.5924252 2.807646,1.334919 0.689737,0.7212092 1.092713,1.6393857 1.283009,2.9233268 0.03704,0.249934 0.04145,0.688167 0.04867,4.844683 l 0.0079,4.569892 H 18.005581 16.02155 l -3.55e-4,-3.506571 c -3.5e-4,-3.476585 -0.0096,-3.962681 -0.08328,-4.390681 -0.154543,-0.897343 -0.584405,-1.550507 -1.226635,-1.863844 -0.63886,-0.3116926 -1.593581,-0.3006203 -2.294666,0.02661 -0.73568,0.343379 -1.179206,0.984099 -1.370828,1.98031 -0.04997,0.259792 -0.05072,0.31072 -0.05937,4.008654 l -0.0088,3.74552 H 8.995383 7.01315 Z"
+     id="path10911" />
+  <path
+     style="fill:#11f1fd;stroke-width:0.0238949;paint-order:stroke fill markers;fill-opacity:1"
+     d="M 0.01195,13.500605 V 7.01315 h 2.4850657 2.4850656 v 6.487455 6.487456 H 2.4970157 0.01195 Z"
+     id="path10913" />
+  <path
+     style="fill:#12f1fd;stroke-width:0.955795;paint-order:stroke fill markers;fill-opacity:1"
+     d="M 82.150159,195.01911 C 60.003276,190.99593 43.18178,181.90795 27.630219,165.56417 15.412263,152.72381 8.2206423,139.66415 3.1374935,121.08649 0.20274714,110.36071 0.16427584,87.461132 3.0617241,75.985663 12.091743,40.221885 39.169492,12.585306 73.87736,3.7085344 118.85267,-7.7942041 164.80832,13.985482 185.04042,56.391876 c 7.35255,15.410893 8.92406,22.816701 8.92406,42.054958 0,13.851366 -0.31928,17.447076 -2.16416,24.372756 -3.04022,11.41302 -11.22832,27.61324 -18.68979,36.97792 -21.45312,26.92519 -58.23254,41.16689 -90.960371,35.2216 z"
+     id="path10919"
+     transform="scale(0.025)" />
+  <metadata
+     id="metadata11284">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:title>linkedin [#161]</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+</svg>

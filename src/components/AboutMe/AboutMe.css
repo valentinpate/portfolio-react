@@ -1,6 +1,8 @@
 .AboutMeContainer{
+    width:90%;
+    margin:0 auto;
     padding-top:4em;
-    padding-left:6em;
+    padding-bottom:2em;
 }
 
 .AboutMeContainer h2{
