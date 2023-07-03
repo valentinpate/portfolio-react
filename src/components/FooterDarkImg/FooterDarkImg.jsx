@@ -15,3 +15,5 @@ function FooterDarkImg(){
         </div>
     )
 }
+
+export {FooterDarkImg}

@@ -14,3 +14,5 @@ function FooterImg(){
         </div>
     )
 }
+
+export {FooterImg}
