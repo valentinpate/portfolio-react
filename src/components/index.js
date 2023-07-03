@@ -10,3 +10,6 @@ export {ProgrammingLanguagesImg} from "./ProgrammingLanguagesImg/ProgrammingLang
 export {Experience} from "./Experience/Experience"
 export {Projects} from "./Projects/Projects"
 export {Contact} from "./Contact/Contact"
+// export FooterImg
+// export FooterDarkImg
+export {Footer} from "./Footer/Footer"
