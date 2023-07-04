@@ -1,6 +1,11 @@
 .Languages img{
     width:8em;
     margin: 0 2.5em;
+    transition: transform 0.5s;
+}
+
+.Languages img:hover{
+    transform:scale(1.1);
 }
 
 .Languages{

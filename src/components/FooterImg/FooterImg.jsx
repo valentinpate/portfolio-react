@@ -7,8 +7,8 @@ import Mail from "./mail.svg"
 function FooterImg(){
     return(
         <div className="FooterImages FooterImagesLight">
-            <img src={Facebook} alt="" />
-            <img src={GitHub} alt="" />
+            <a href="https://www.facebook.com/valentin.pate.37/"><img src={Facebook} alt="" /></a>
+            <a href="https://www.github.com/valentinpate"><img src={GitHub} alt=""/></a>
             <img src={LinkedIn} alt="" />
             <img src={Mail} alt="" />
         </div>
