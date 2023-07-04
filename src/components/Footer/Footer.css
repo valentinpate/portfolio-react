@@ -1,6 +1,27 @@
 .FooterContainer img{
     width:1.5em;
-    margin: 1em 2em;
+    margin: 1em 1.5em;
+}
+
+.FooterContainer hr{
+    border:1px solid #10637D;
+}
+
+.FooterContainer p{
+    font-weight:900;
+    text-align:center;
+    color:#10637D;
+}
+
+
+.FooterContainer{
+    margin-top:5em;
+}
+
+.FooterLight, .FooterDark{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
 }
 
 .FooterDark{
