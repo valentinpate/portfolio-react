@@ -1,3 +1,4 @@
+export {ThemeProvider} from "./ThemeProvider"
 export {Header} from "./Header/Header"
 export {Logo} from "./Logo/Logo"
 export {LogoDark} from "./Logo/LogoDark"

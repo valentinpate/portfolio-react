@@ -1,16 +1,22 @@
+import React, { useState } from "react";
 import "./Footer.css"
 import {FooterImg} from "../FooterImg/FooterImg"
 import {FooterDarkImg} from "../FooterDarkImg/FooterDarkImg"
 
 function Footer(){
+    const [modoOscuro, setModoOscuro] = useState(false)
+
+    function oscuro(){
+        setModoOscuro(!modoOscuro)
+    }
     return(
         <div className="FooterContainer">
-            <div className="FooterLight">
+            {modoOscuro===false &&<div className="FooterLight">
                 <FooterImg />
-            </div>
-            <div className="FooterDark">
+            </div>}
+            {modoOscuro===true && <div className="FooterDark">
                 <FooterDarkImg />
-            </div>
+            </div>}
             <hr />
             <p>©2023 TK | All rights reserved</p>
         </div>

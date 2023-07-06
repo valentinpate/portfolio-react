@@ -14,7 +14,9 @@ function LightButton(){
             <div className="form-check form-switch Light-Mode">
                 <input className="form-check-input" type="checkbox" id="flexSwitchCheckDefault" onClick={oscuro}></input>
                 {modoOscuro === false && <label className="form-check-label" for="flexSwitchCheckDefault">Modo oscuro</label>}
-                {modoOscuro === true && <label className="form-check-label" for="flexSwitchCheckDefault"><p className="Dark-Mode">Modo oscuro</p></label>}
+                {modoOscuro === true && <div className="Dark-Mode">
+                    <label className="form-check-label" for="flexSwitchCheckDefault"><p className="Dark-Mode">Modo oscuro</p></label>
+                    </div>}
             </div>
         </div>
     )

@@ -10,10 +10,18 @@
     color:#10637D;
 }
 
+.IntroContainerDark h1{
+    color:white;
+}
+
 .IntroInformation h3{
     font-weight:900;
     font-size:2.2rem;
     padding-bottom:1em;
+}
+
+.IntroContainerDark h3{
+    color:#10f0fc;
 }
 
 .IntroInformation button{
@@ -28,13 +36,33 @@
                 color 0.3s;
 }
 
+.IntroContainerDark button{
+    background-color:#10f0fc;
+    border:2px solid #10f0fc;
+    color:black;
+}
+
 .IntroInformation button:hover{
     background-color:#f2f2f2;
     border:2px solid #10637D;
     color:#10637D;
 }
 
+.IntroContainerDark button:hover{
+    background-color:#1c2025;
+    border:2px solid #10f0fc;
+    color:#10f0fc;
+}
+
 .IntroContainer{
+    background-color:#f2f2f2;
+    padding-top:9em;
+    display:flex;
+    justify-content:center;
+}
+
+.IntroContainerDark{
+    background-color:#1c2025;
     padding-top:9em;
     display:flex;
     justify-content:center;
