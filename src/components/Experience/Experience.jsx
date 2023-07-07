@@ -5,7 +5,7 @@ const Experience = () => {
     const {modoOscuro, setModoOscuro} = useTheme()
     return(
         <>
-        {modoOscuro===false &&<div className="ExperienceContainer" id="experiencia">
+        {modoOscuro===false &&<div className="ExperienceContainer">
             <h2>Experiencia</h2>
             <div className="ExperienceSquareContainer">
                 <div className="ExperienceSquare">
@@ -33,7 +33,7 @@ const Experience = () => {
                 </div>
             </div>
         </div>}
-        {modoOscuro===true &&<div className="ExperienceContainerDark" id="experiencia">
+        {modoOscuro===true &&<div className="ExperienceContainerDark">
             <h2>Experiencia</h2>
             <div className="ExperienceSquareContainer">
                 <div className="ExperienceSquare">

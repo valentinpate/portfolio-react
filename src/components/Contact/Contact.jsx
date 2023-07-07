@@ -5,7 +5,7 @@ const Contact = () => {
     const {modoOscuro, setModoOscuro} = useTheme()
     return(
         <>
-            {modoOscuro===false && <div className="ContactsMainContainer" id="contacto">
+            {modoOscuro===false && <div className="ContactsMainContainer">
                 <h2>Contactame</h2>
                 <div className="ContactsContainer">
                     <div className="Contacts">
@@ -19,7 +19,7 @@ const Contact = () => {
                 </div>
                 <button>Enviar mensaje</button>
             </div>}
-            {modoOscuro===true && <div className="ContactsMainContainerDark" id="contacto">
+            {modoOscuro===true && <div className="ContactsMainContainerDark">
                 <h2>Contactame</h2>
                 <div className="ContactsContainer">
                     <div className="Contacts">

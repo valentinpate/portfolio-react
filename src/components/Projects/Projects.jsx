@@ -8,7 +8,7 @@ const Projects = () => {
     const {modoOscuro, setModoOscuro} = useTheme()
     return(
         <>
-            {modoOscuro===false && <div className="ProjectsContainer" id="proyectos">
+            {modoOscuro===false && <div className="ProjectsContainer">
                 <h2>Proyectos</h2>
                 <div className="ProjectContainer">
                     <div className="Project">
@@ -31,7 +31,7 @@ const Projects = () => {
                     </div>
                 </div>
             </div>}
-            {modoOscuro===true && <div className="ProjectsContainerDark" id="proyectos">
+            {modoOscuro===true && <div className="ProjectsContainerDark">
                 <h2>Proyectos</h2>
                 <div className="ProjectContainer">
                     <div className="Project">

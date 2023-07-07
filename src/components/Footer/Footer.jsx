@@ -7,14 +7,14 @@ const Footer = () => {
     const {modoOscuro, setModoOscuro} = useTheme()
     return(
         <>
-            {modoOscuro===false && <div className="FooterContainer" id="footer">
+            {modoOscuro===false && <div className="FooterContainer">
                 <div className="FooterLight">
                     <FooterImg />
                 </div>
                 <hr />
                 <p>©2023 TK | All rights reserved</p>
             </div>}
-            {modoOscuro===true && <div className="FooterContainerDark" id="footer">
+            {modoOscuro===true && <div className="FooterContainerDark">
                 <div className="FooterDark">
                     <FooterDarkImg />
                 </div>

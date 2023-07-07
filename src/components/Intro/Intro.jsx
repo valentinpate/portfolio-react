@@ -6,7 +6,7 @@ const Intro = () => {
 const {modoOscuro, setModoOscuro} = useTheme()
     return(
         <>
-        {modoOscuro===false && <div className="IntroContainer" id="intro">
+        {modoOscuro===false && <div className="IntroContainer">
             <Photo />
             <div className="IntroInformation">
                 <h1>Valentín Pate</h1>

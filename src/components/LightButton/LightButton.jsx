@@ -4,7 +4,7 @@ import "./LightButton.css"
 
 const LightButton = () => {
     let {modoOscuro, setModoOscuro} = useTheme()
-    let cuerpo = document.getElementById("body")
+    let cuerpo = document.querySelector("body")
     const [bodyColor,setBodyColor] = useState(false)
 
     function oscuro(){
