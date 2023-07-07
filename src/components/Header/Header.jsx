@@ -6,16 +6,22 @@ import {LogoDark} from "../Logo/LogoDark"
 import {Navbar} from "../Navbar/Navbar"
 
 function Header(){
-
-    // const headerOscuro = useContext(oscuroContexto)
+    let cuerpo = document.getElementById("body")
+    const [bodyColor,setBodyColor] = useState(false)
     const [modoOscuro, setModoOscuro] = useState(false)
 
     function oscuro(){
         setModoOscuro(!modoOscuro)
+        setBodyColor(!bodyColor)
+        if(!bodyColor === true){
+            cuerpo.style.backgroundColor = "rgb(28,32,37)"
+        }else{
+            cuerpo.style.backgroundColor = "rgb(242,242,242)"
+        }
     }
     return(
         <>
-        {modoOscuro===false &&<header className="LightHeader" onClick={oscuro}>
+        {modoOscuro===false &&<header className="LightHeader" id="header" onClick={oscuro}>
             <Logo />
             <Navbar />
         </header>}
