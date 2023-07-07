@@ -8,14 +8,12 @@
     padding-right:4em;
     display:flex;
     justify-content:flex-end;
-    background-color:#f2f2f2;
     position:fixed;
     z-index:5;
     width:100vw;
 }
 
 .Dark-Mode{
-    background-color:#1C2025;
     font-weight:900;
     color:#10F0FC;
 }

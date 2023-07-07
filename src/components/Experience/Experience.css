@@ -18,11 +18,27 @@
     font-weight:900;
 }
 
-.ExperienceSquare:hover{
-    box-shadow:0 4px 8px #696A6F;
+.ExperienceContainerDark h2{
+    font-size:3rem;
+    font-weight:900;
+    color:white;
 }
 
-.ExperienceContainer{
+.ExperienceContainerDark h3{
+    color:#10F0FC;
+}
+
+.ExperienceContainerDark .ExperienceSquare{
+    background-color:#27282f;
+    color:white;
+    box-shadow:none;
+}
+
+.ExperienceSquare:hover{
+    box-shadow:0 4px 8px #27282F;
+}
+
+.ExperienceContainer, .ExperienceContainerDark{
     width:90%;
     margin:0 auto;
     padding-top:5em;
@@ -38,6 +54,6 @@
     padding: 1em 2em;
     border:1px solid transparent;
     border-radius:1rem;
-    box-shadow:0 3px 2px #696A6F;
+    box-shadow:0 3px 2px #27282F;
     transition: box-shadow 0.3s;
 }

@@ -4,13 +4,23 @@
     color:#10637D;
 }
 
+.AboutMeDark h2{
+    font-size:3rem;
+    font-weight:900;
+    color:white;
+}
+
 .AboutMeContainer p{
     width:60em;
     font-weight:900;
 }
 
+.AboutMeDark p{
+    width:60em;
+    font-weight:900;
+}
+
 .AboutMeContainer{
-    background-color:#f2f2f2;
     width:90%;
     margin:0 auto;
     padding-top:4em;
@@ -18,6 +28,9 @@
 }
 
 .AboutMeDark{
-    background-color:#1c2025;
+    width:90%;
+    margin:0 auto;
+    padding-top:4em;
+    padding-bottom:2em;
     color:white;
 }

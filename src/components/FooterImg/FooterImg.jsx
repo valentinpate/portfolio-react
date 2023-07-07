@@ -4,9 +4,9 @@ import GitHub from "./github.svg"
 import LinkedIn from "./linkedin.svg"
 import Mail from "./mail.svg"
 
-function FooterImg(){
+const FooterImg = () => {
     return(
-        <div className="FooterImages FooterImagesLight">
+        <div className="FooterImages">
             <a href="https://www.facebook.com/valentin.pate.37/"><img src={Facebook} alt="" /></a>
             <a href="https://www.github.com/valentinpate"><img src={GitHub} alt=""/></a>
             <img src={LinkedIn} alt="" />

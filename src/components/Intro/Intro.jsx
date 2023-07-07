@@ -1,16 +1,12 @@
-import React, {useState} from "react";
 import "./Intro.css"
 import {Photo} from "../Photo/Photo"
+import { useTheme } from "../ThemeProvider"
 
-function Intro(){
-        const [modoOscuro, setModoOscuro] = useState(false)
-
-    function oscuro(){
-        setModoOscuro(!modoOscuro)
-    }
+const Intro = () => {
+const {modoOscuro, setModoOscuro} = useTheme()
     return(
         <>
-        {modoOscuro === false && <div className="IntroContainer" onClick={oscuro}>
+        {modoOscuro===false && <div className="IntroContainer" id="intro">
             <Photo />
             <div className="IntroInformation">
                 <h1>Valentín Pate</h1>
@@ -18,7 +14,7 @@ function Intro(){
                 <button>Descargar mi CV</button>
             </div>
         </div>}
-        {modoOscuro === true && <div className="IntroContainer IntroContainerDark" onClick={oscuro}>
+        {modoOscuro===true && <div className="IntroContainerDark">
             <Photo />
             <div className="IntroInformation">
                 <h1>Valentín Pate</h1>

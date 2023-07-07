@@ -1,7 +1,7 @@
 import "./Photo.css"
 import picture from "./1c.jpg"
 
-function Photo(){
+const Photo = () => {
     return(
         <>
             <img src={picture} className="Foto" alt="Foto" />

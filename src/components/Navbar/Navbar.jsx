@@ -1,6 +1,6 @@
 import "./Navbar.css"
 
-function Navbar(){
+const Navbar = () => {
     return(
         <nav>
             <a href="">Sobre Mí</a>

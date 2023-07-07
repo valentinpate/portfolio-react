@@ -1,4 +1,4 @@
-.FooterContainer img{
+.FooterContainer img, .FooterContainerDark img{
     width:1.5em;
     margin: 1em 1.5em;
 }
@@ -7,23 +7,29 @@
     border:1px solid #10637D;
 }
 
+.FooterContainerDark hr{
+    border:1px solid #10F0FC;
+}
+
 .FooterContainer p{
     font-weight:900;
     text-align:center;
     color:#10637D;
 }
 
+.FooterContainerDark p{
+    font-weight:900;
+    text-align:center;
+    color: #10F0FC;
+}
 
-.FooterContainer{
+.FooterContainer, .FooterContainerDark{
     margin-top:5em;
 }
 
 .FooterLight, .FooterDark{
     display:flex;
     flex-direction:column;
+    justify-content:center;
     align-items:center;
-}
-
-.FooterDark{
-    display:none;
 }

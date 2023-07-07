@@ -4,7 +4,7 @@ import js from "./js.png"
 import html from "./html.png"
 import css from "./css.png"
 
-function ProgrammingLanguagesImg(){
+const ProgrammingLanguagesImg = () => {
 return(
         <div className="Languages">
             <img src={react} alt="React" />

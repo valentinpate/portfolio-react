@@ -21,11 +21,6 @@ nav{
 
 .DarkHeader a{
     color:white;
-    text-decoration: none;
-    text-transform: uppercase;
-    border:2px solid transparent;
-    border-radius:2rem;
-    transition: border 0.5s;
 }
 
 header img:hover{
