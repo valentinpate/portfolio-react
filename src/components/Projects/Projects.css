@@ -9,7 +9,7 @@
     width:30em;
     border-top-left-radius: 1rem;
     border-top-right-radius: 1rem;
-    padding-bottom:1em;
+    padding-bottom:1.5em;
 }
 
 .Project p{
@@ -73,7 +73,7 @@
 }
 
 .Project{
-    height:28em;
+    height:27.5em;
     margin:1em 3.5em;
     border:1px solid transparent;
     border-radius:1rem;
@@ -84,5 +84,64 @@
 
 .Stomp{
     color:black;
-    margin-bottom:4em;
+    margin-bottom:3.5em;
+}
+
+@media(max-width:1440px){
+    .Project img{
+        width:25em;
+    }
+    .Project{
+        height:25.5em;
+        margin:1em 1em;
+    }
+}
+
+@media(max-width:1024px){
+    .Project img{
+        width:18em;
+    }
+    .Project{
+        height:21em;
+    }
+    .Stomp{
+        margin-bottom:3em;
+    }
+}
+
+@media(max-width:768px){
+    .Project img{
+        width:35em;
+    }
+    .Project p{
+        font-size:1.6rem;
+    }
+    .Project a{
+        font-size:1.6rem;
+    }
+    .ProjectContainer{
+        flex-direction:column;
+        align-items:center;
+    }
+    .Project{
+        height:34em;
+    }
+    .Stomp{
+        margin-bottom:2.5em;
+    }
+}
+
+@media(max-width:440px){
+    .Project img{
+        width:20em;
+    }
+    .Project p{
+        font-size:1.3rem;
+    }
+    .Project a{
+        font-size:1.3rem;
+    }
+    .Project{
+        height:25em;
+    }
 }

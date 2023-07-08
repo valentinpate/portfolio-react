@@ -13,3 +13,32 @@
     margin:0 auto;
     padding-top:3em;
 }
+
+@media(max-width:1024px){
+    .Languages img{
+        width:7.5em;
+        margin: 0 2em;
+    }
+    .Languages{
+        padding-top:2em;
+    }
+}
+
+@media(max-width:768px){
+    .Languages img{
+        width:6em;
+        margin: 0 1.5em;
+    }
+}
+
+@media(max-width:440px){
+    .Languages img{
+        width:10em;
+        margin: 1.5em 1.5em;
+    }
+    .Languages{
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+    }
+}

@@ -1,6 +1,5 @@
 import "./Logo.css"
 import LogoImg from "./Logo.png"
-import LogoDarkImg from "./LogoDark.png"
 
 const Logo = () => {
     return (

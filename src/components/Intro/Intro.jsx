@@ -10,7 +10,7 @@ const {modoOscuro, setModoOscuro} = useTheme()
             <Photo />
             <div className="IntroInformation">
                 <h1>Valentín Pate</h1>
-                <h3>Transformando ideas en soluciones funcionales y elegantes. <br />¡Colaboremos!</h3>
+                <h3>Transformando ideas en soluciones funcionales y elegantes. ¡Colaboremos!</h3>
                 <button>Descargar mi CV</button>
             </div>
         </div>}
@@ -18,7 +18,7 @@ const {modoOscuro, setModoOscuro} = useTheme()
             <Photo />
             <div className="IntroInformation">
                 <h1>Valentín Pate</h1>
-                <h3>Transformando ideas en soluciones funcionales y elegantes. <br />¡Colaboremos!</h3>
+                <h3>Transformando ideas en soluciones funcionales y elegantes. ¡Colaboremos!</h3>
                 <button>Descargar mi CV</button>
             </div>
         </div>}

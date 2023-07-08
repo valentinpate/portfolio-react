@@ -34,3 +34,21 @@
     padding-bottom:2em;
     color:white;
 }
+
+@media(max-width:1024px){
+    .AboutMeContainer p, .AboutMeDark p{
+        width:55em;
+    }
+}
+
+@media(max-width:768px){
+    .AboutMeContainer p, .AboutMeDark p{
+        width:42em;
+    }
+}
+
+@media(max-width:440px){
+    .AboutMeContainer p, .AboutMeDark p{
+        width:22em;
+    }
+}
