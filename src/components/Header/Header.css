@@ -19,7 +19,12 @@ nav{
     padding-right:1.5em;
 }
 
-.DarkHeader a{
+button{
+    border:none;
+    background-color:transparent;
+}
+
+.DarkHeader a, .DarkBurger button{
     color:white;
 }
 
@@ -33,5 +38,25 @@ header img:hover{
 
 .DarkHeader{
     background-color:#1c2025;
+}
+
+.Burger, .DarkBurger{
+    display:none;
+}
+
+.BurgerButton{
+    margin-right:2em;
+}
+
+@media(max-width:768px){
+    header nav{
+        display:none;
+    }
+    .Burger, .DarkBurger{
+        display:block;
+    }
+    .bi-list{
+        font-size:3rem;
+    }
 }
 

@@ -1,8 +1,7 @@
-import React, { useState } from "react";
 import { useTheme } from "../ThemeProvider";
-import "./LightButton.css"
+import "./HiddenLightButton.css"
 
-const LightButton = () => {
+const HiddenLightButton = () => {
     let {modoOscuro, setModoOscuro, bodyColor, setBodyColor} = useTheme()
     let cuerpo = document.querySelector("body")
 
@@ -18,7 +17,7 @@ const LightButton = () => {
 
     return(
         <>
-        <div className="CommonLightButton">
+        <div className="HiddenLightButton">
             <div className="CheckboxContainer" id="ButtonContainer">
                 <div className="form-check form-switch Light-Mode">
                     <input className="form-check-input" type="checkbox" id="flexSwitchCheckDefault" onClick={oscuro}></input>
@@ -33,4 +32,4 @@ const LightButton = () => {
     )
 }
 
-export {LightButton}
+export {HiddenLightButton}

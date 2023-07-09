@@ -17,3 +17,9 @@
     font-weight:900;
     color:#10F0FC;
 }
+
+@media(max-width:768px){
+    .CommonLightButton{
+        display:none;
+    }
+}
