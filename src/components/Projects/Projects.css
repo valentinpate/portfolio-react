@@ -109,6 +109,18 @@
     }
 }
 
+@media(max-width:954px){
+    .Project img{
+        width:15em;
+    }
+    .Project{
+        height:19em;
+    }
+    .Stomp{
+        margin-bottom:3em;
+    }
+}
+
 @media(max-width:768px){
     .Project img{
         width:35em;
