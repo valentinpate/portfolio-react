@@ -44,7 +44,7 @@ const Contact = () => {
 
     return(
         <>
-            {modoOscuro===false && <div className="ContactsMainContainer">
+            {modoOscuro===false && <div className="ContactsMainContainer" id="Contact">
                 <h2>Contactame</h2>
                 <div className="ContactsContainer">
                     <form onSubmit={sendEmail}>
@@ -63,7 +63,7 @@ const Contact = () => {
                     </form>
                 </div>
             </div>}
-            {modoOscuro===true && <div className="ContactsMainContainerDark">
+            {modoOscuro===true && <div className="ContactsMainContainerDark" id="ContactDark">
                 <h2>Contactame</h2>
                 <div className="ContactsContainer">
                     <form onSubmit={sendEmail}>
